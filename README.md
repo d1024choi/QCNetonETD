@@ -4,7 +4,7 @@ We slightly modified the original source code (https://github.com/ZikangZhou/QCN
 
 ## 1.Convert Argoverse2-type dataset into QCNet-compatible one
 
-Initially, you are given two sets, one for training ('train' folder) and the other for test ('test_masked' folder). Convert scene sample files in the folders to QCNet-compatible ones with 'argoverse2_to_qcnet_format.py' in https://github.com/d1024choi/ETRITrajPredChallenage. 
+Initially, you are given two sets, one for training ('train' folder) and the other for test ('test_masked' folder). Convert scene sample files in the folders to QCNet-compatible ones using 'argoverse2_to_qcnet_format.py' in https://github.com/d1024choi/ETRITrajPredChallenage. 
 
 ## 2.Split Dataset
 
