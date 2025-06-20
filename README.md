@@ -42,9 +42,7 @@ av2format --- train_qcnet
             - test_flops_qcnet
 ```
 
-You can control parameters for the training by editing train.py. For example, by setting --device to 8, you can use 8 GPUs for multi-gpu training.
-
-Once you start training, a folder by the name of 'version_$number$' is automatically created and the intermediate trained parameters are stored in the folder. 
+You can control parameters for the training by editing train.py. For example, by setting --device to 8, you can use 8 GPUs for multi-gpu training. Once you start training, a folder by the name of 'version_$number$' is automatically created and the intermediate trained parameters are stored in the folder. 
 
 
 ## 4.Test
