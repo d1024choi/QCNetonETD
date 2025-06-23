@@ -89,3 +89,5 @@ pip install torch-geometric==2.3.1
 pip install torch-scatter==2.1.2+pt21cu118 -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
 pip install torch-cluster==1.6.3+pt21cu118 -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
 ```
+
+Finally, we tested this model on four NVIDIA RTX 4090 GPUs.
