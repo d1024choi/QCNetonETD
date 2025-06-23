@@ -78,3 +78,14 @@ The following parameters must be properly set like
     parser.add_argument('--val_processed_dir', type=str, default="val_qcnet")
     parser.add_argument('--test_processed_dir', type=str, default="test_flops_qcnet")
 ```
+## 7. Learning Envrionment
+
+The details can be found in the original repository of QCNet (https://github.com/ZikangZhou/QCNet). We created a conda environment (with python 3.8) and installed required libraries through the following commands:
+
+```
+conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install pytorch-lightning==2.1.2 torchmetrics==1.2.0 six==1.17.0
+pip install torch-geometric==2.3.1
+pip install torch-scatter==2.1.2+pt21cu118 -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+pip install torch-cluster==1.6.3+pt21cu118 -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+```
